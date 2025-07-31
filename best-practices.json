@@ -1,0 +1,117 @@
+{
+  "project": "RL Inter",
+  "bestPractices": {
+    "javascript": [
+      {
+        "rule": "Use ES6+",
+        "description": "Prefira let/const, arrow functions, destructuring e template literals para código mais conciso e legível."
+      },
+      {
+        "rule": "Lint & Format",
+        "description": "Configure ESLint (Airbnb ou Standard) + Prettier. Aplique Husky e lint-staged para checagem automática em pré-commit."
+      },
+      {
+        "rule": "Modularização",
+        "description": "Separe lógica em módulos pequenos e reutilizáveis. Cada arquivo deve exportar uma única responsabilidade."
+      }
+    ],
+    "react": [
+      {
+        "rule": "Componentes Funcionais + Hooks",
+        "description": "Use funções e React Hooks (useState, useEffect, useContext) em vez de classes para maior simplicidade."
+      },
+      {
+        "rule": "PropTypes ou TypeScript",
+        "description": "Garanta tipagem estática: adicione PropTypes nos componentes ou migre para TypeScript gradualmente."
+      },
+      {
+        "rule": "Single Responsibility",
+        "description": "Cada componente deve ter uma única responsabilidade. Extraia lógica compartilhada para hooks customizados."
+      },
+      {
+        "rule": "React.lazy & Suspense",
+        "description": "Implemente code-splitting para carregar componentes sob demanda e acelerar o carregamento inicial."
+      }
+    ],
+    "cssModules": [
+      {
+        "rule": "Escopo Local",
+        "description": "Nomeie classes com convenção BEM ou camelCase. Evite conflitos globais de estilos."
+      },
+      {
+        "rule": "Variáveis de Tema",
+        "description": "Centralize cores e fontes em src/theme.js e importe nos módulos para consistência."
+      },
+      {
+        "rule": "Mobile-First",
+        "description": "Use media queries a partir do breakpoint mobile e expanda para tablet e desktop."
+      },
+      {
+        "rule": "Sem !important",
+        "description": "Nunca utilize !important; refatore seletores para aumentar especificidade de forma controlada."
+      }
+    ],
+    "accessibility": [
+      {
+        "rule": "Semântica",
+        "description": "Use tags HTML5 (header, main, footer, nav) e atributos aria-label quando necessário."
+      },
+      {
+        "rule": "Contraste de Cores",
+        "description": "Garanta WCAG AA: texto principal com contraste mínimo de 4.5:1 com o fundo."
+      },
+      {
+        "rule": "Navegação por Teclado",
+        "description": "Verifique foco, tabindex e ordem lógica de navegação nos componentes interativos."
+      }
+    ],
+    "performance": [
+      {
+        "rule": "Otimização de Imagens",
+        "description": "Use formatos modernos (WebP) e lazy-load (`<img loading=\"lazy\"/>`)."
+      },
+      {
+        "rule": "Minificação e Tree-Shaking",
+        "description": "Configure o bundler (Vite ou Webpack) para remover código morto e comprimir assets."
+      },
+      {
+        "rule": "Memoização",
+        "description": "Use React.memo e useCallback quando componentes/passes forem re-renderizados desnecessariamente."
+      }
+    ],
+    "testing": [
+      {
+        "rule": "React Testing Library + Jest",
+        "description": "Escreva testes unitários para componentes críticos e testes de integração para fluxos principais."
+      },
+      {
+        "rule": "Cobertura Mínima",
+        "description": "Mire em pelo menos 80% de cobertura de código nos arquivos de componentes e hooks."
+      }
+    ],
+    "versionControl": [
+      {
+        "rule": "GitFlow ou Trunk",
+        "description": "Adote um fluxo de branches padronizado: feature/*, release/* e main/develop."
+      },
+      {
+        "rule": "Commits Claros",
+        "description": "Use convenção Conventional Commits (feat:, fix:, chore:) e mensagens descritivas."
+      }
+    ],
+    "documentation": [
+      {
+        "rule": "README Atualizado",
+        "description": "Descreva setup, scripts, convenções de código e como gerar a build."
+      },
+      {
+        "rule": "CHANGELOG.md",
+        "description": "Mantenha um changelog seguindo o padrão Keep a Changelog para versões e releases."
+      },
+      {
+        "rule": "Storybook (Opcional)",
+        "description": "Documente e visualize componentes isolados, facilitando QA e alinhamento de design."
+      }
+    ]
+  }
+}

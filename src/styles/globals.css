@@ -17,7 +17,7 @@
 
   --breakpoint-mobile: 600px;
   --breakpoint-tablet: 960px;
-  --breakpoint-desktop: 1200px;
+  --breakpoint-desktop: 1800px;
 }
 
 /* Reset CSS */
@@ -47,7 +47,7 @@ h2 {
 
 .site-container {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1500px;
   margin: 0 auto;
   padding: 1.5rem;
   box-sizing: border-box;

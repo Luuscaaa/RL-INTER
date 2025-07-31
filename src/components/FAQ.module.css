@@ -1,0 +1,13 @@
+.faq {
+  padding: 2rem 1rem;
+}
+.question {
+  color: var(--color-primary);
+  font-weight: bold;
+}
+.answer {
+  color: var(--color-mutedText);
+}
+.indicator {
+  color: var(--color-accent);
+}

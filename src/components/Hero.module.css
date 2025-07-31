@@ -104,9 +104,3 @@
     max-width: 320px;
   }
 }
-.hero {
-  background: var(--color-background);
-  color: var(--color-primary);
-  padding: 2rem 1rem;
-  text-align: center;
-}

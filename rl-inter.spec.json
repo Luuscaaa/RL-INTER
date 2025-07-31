@@ -1,0 +1,203 @@
+{
+  "projectName": "RL Inter",
+  "description": "Site informativo em React para consultoria esportiva, com foco em geração de leads via WhatsApp.",
+  "theme": {
+    "colors": {
+      "primary": "#001F3F",
+      "accent": "#FFD700",
+      "background": "#FFFFFF",
+      "text": "#001F3F",
+      "mutedText": "#4A4A4A"
+    },
+    "typography": {
+      "fontFamily": "'Helvetica Neue', Arial, sans-serif",
+      "fontSizes": {
+        "h1": "2.5rem",
+        "h2": "2rem",
+        "h3": "1.75rem",
+        "body": "1rem",
+        "small": "0.875rem"
+      },
+      "lineHeights": {
+        "heading": "1.2",
+        "body": "1.6"
+      }
+    },
+    "breakpoints": {
+      "mobile": "0px",
+      "tablet": "768px",
+      "desktop": "1024px"
+    }
+  },
+  "styles": {
+    "strategy": "CSS Modules",
+    "global": "src/styles/globals.css",
+    "responsive": {
+      "approach": "mobile-first",
+      "mediaQueries": {
+        "tablet": "@media (min-width: 768px)",
+        "desktop": "@media (min-width: 1024px)"
+      }
+    }
+  },
+  "objectives": [
+    "Apresentar serviços e planos de forma atraente usando a paleta de cores definida",
+    "Capturar leads com CTAs de WhatsApp em destaque (accent color)",
+    "Oferecer experiência responsiva em desktop e mobile"
+  ],
+  "targetAudience": [
+    "Atletas amadores e profissionais",
+    "Praticantes de corrida, ciclismo e triathlon",
+    "Empresas interessadas em programas corporativos"
+  ],
+  "scope": {
+    "included": [
+      "Header, Hero, Serviços, Sobre, Depoimentos, Planos, FAQ, Contato, Footer",
+      "Botão flutuante de WhatsApp em todas as páginas",
+      "Design responsivo (CSS Modules) com media queries",
+      "Arquivo de tema (`src/theme.js`) exportando cores e tipografia"
+    ],
+    "excluded": [
+      "E-commerce e pagamentos",
+      "Área de login/usuário",
+      "Blog dinâmico"
+    ]
+  },
+  "functionalRequirements": [
+    {
+      "id": 1,
+      "name": "Header",
+      "details": [
+        "Fundo em primary (#001F3F), texto e logo em branco",
+        "Menu âncora com hover em accent (#FFD700)",
+        "Botão “Fale no WhatsApp” com fundo accent e texto primary"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Hero",
+      "details": [
+        "Background branco com texto primário (#001F3F)",
+        "Título em h1 accent (#FFD700) ou underline em accent",
+        "CTA “Quero Saber Mais” outline primary, “Falar no WhatsApp” solid accent",
+        "Imagem ou ilustração responsiva"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Serviços",
+      "details": [
+        "Cards com borda accent e sombra leve",
+        "Ícone em primary, título em primary, descrição em mutedText",
+        "CTA “Saiba Mais” em accent e “Contratar via WhatsApp” em solid accent"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Sobre",
+      "details": [
+        "Seção com fundo primary e texto branco em tablets/desktops",
+        "Fotos circulares da equipe com borda accent",
+        "Links de redes sociais em branco com hover accent"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Depoimentos",
+      "details": [
+        "Carrossel com cards brancos e sombra suave",
+        "Estrelas em accent e nome/cidade em primary",
+        "CTA “Quero Resultados Assim” botão accent"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Planos",
+      "details": [
+        "Tabela comparativa com linhas alternadas (fundo branco e cinza claro)",
+        "Destaque do plano preferido com borda accent",
+        "Botão “Contratar” em solid primary com texto branco"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "FAQ",
+      "details": [
+        "Perguntas em primary, respostas em mutedText",
+        "Indicador de expansão (ícone +/–) em accent"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Contato",
+      "details": [
+        "Formulário com bordas accent e labels primary",
+        "Botão submit em solid accent, texto branco",
+        "Mapa embed abaixo em container responsivo"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Footer",
+      "details": [
+        "Fundo primary, texto branco",
+        "Ícones sociais em branco com hover accent",
+        "Links de navegação em white/mutedText"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "WhatsAppButton",
+      "details": [
+        "Botão flutuante circular accent no canto inferior direito",
+        "Ícone WhatsApp branco",
+        "Z-index elevado para sobrepor conteúdos",
+        "Abre chat via `https://wa.me/55XX9XXXXXXXX`"
+      ]
+    }
+  ],
+  "components": [
+    { "name": "Header", "path": "src/components/Header.jsx" },
+    { "name": "Hero", "path": "src/components/Hero.jsx" },
+    { "name": "Services", "path": "src/components/Services.jsx" },
+    { "name": "About", "path": "src/components/About.jsx" },
+    { "name": "Testimonials", "path": "src/components/Testimonials.jsx" },
+    { "name": "Plans", "path": "src/components/Plans.jsx" },
+    { "name": "FAQ", "path": "src/components/FAQ.jsx" },
+    { "name": "Contact", "path": "src/components/Contact.jsx" },
+    { "name": "Footer", "path": "src/components/Footer.jsx" },
+    { "name": "WhatsAppButton", "path": "src/components/WhatsAppButton.jsx" }
+  ],
+  "nonFunctionalRequirements": {
+    "performance": "Carregamento < 2s em mobile",
+    "accessibility": [
+      "Navegação por teclado",
+      "Contraste de cores adequado (WCAG AA)"
+    ],
+    "seo": [
+      "Títulos semânticos (h1, h2…)",
+      "Meta tags e Open Graph"
+    ],
+    "maintainability": "CSS Modules e `src/theme.js` para centralizar estilos"
+  },
+  "navigationFlow": [
+    "Usuário acessa home",
+    "Scroll nas seções",
+    "Clica em CTA de WhatsApp",
+    "Inicia conversa e lead é qualificado"
+  ],
+  "deployment": {
+    "provider": "Netlify ou Vercel",
+    "steps": [
+      "build: npm run build",
+      "deploy: arrastar pasta build"
+    ]
+  },
+  "timeline": [
+    { "phase": "Setup do Projeto", "duration": "1 dia" },
+    { "phase": "Desenvolvimento UI", "duration": "4 dias" },
+    { "phase": "Integração WhatsApp", "duration": "1 dia" },
+    { "phase": "Testes e Ajustes", "duration": "2 dias" },
+    { "phase": "Deploy e QA Final", "duration": "1 dia" }
+  ]
+}

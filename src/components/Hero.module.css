@@ -1,0 +1,10 @@
+.hero {
+  background: var(--color-background);
+  color: var(--color-primary);
+  padding: 2rem 1rem;
+  text-align: center;
+}
+.hero h1 {
+  color: var(--color-accent);
+  font-size: var(--font-size-h1);
+}

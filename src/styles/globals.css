@@ -28,3 +28,15 @@ html, body {
   color: var(--color-text);
   font-family: var(--font-family);
 }
+
+/* Mobile-first media queries */
+@media (min-width: 768px) {
+  body {
+    font-size: var(--font-size-h2);
+  }
+}
+@media (min-width: 1024px) {
+  body {
+    font-size: var(--font-size-h1);
+  }
+}

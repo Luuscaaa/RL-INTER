@@ -1,0 +1,18 @@
+.footer {
+  background: var(--color-primary);
+  color: #fff;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+.social-icon {
+  color: #fff;
+}
+.social-icon:hover {
+  color: var(--color-accent);
+}
+.link {
+  color: #fff;
+}
+.link-muted {
+  color: var(--color-mutedText);
+}

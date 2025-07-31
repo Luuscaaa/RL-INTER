@@ -10,7 +10,7 @@ function WhatsAppButton({ phone }) {
       rel="noopener noreferrer"
       aria-label="Fale no WhatsApp"
     >
-      {/* Ícone WhatsApp */}
+      <img src="https://img.icons8.com/ios-filled/32/FFFFFF/whatsapp--v1.png" alt="WhatsApp" />
     </a>
   );
 }

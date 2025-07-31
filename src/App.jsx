@@ -1,13 +1,13 @@
-import Header from './components/Header';
-import Hero from './components/Hero';
-import Services from './components/Services';
-import About from './components/About';
-import Testimonials from './components/Testimonials';
-import Plans from './components/Plans';
-import FAQ from './components/FAQ';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
-import WhatsAppButton from './components/WhatsAppButton';
+import Header from './components/Header/Header';
+import Hero from './components/Hero/Hero';
+import Services from './components/Services/Services';
+import About from './components/About/About';
+import Testimonials from './components/Testimonials/Testimonials';
+import Plans from './components/Plans/Plans';
+import FAQ from './components/FAQ/FAQ';
+import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
+import WhatsAppButton from './components/WhatsAppButton/WhatsAppButton';
 
 function App() {
   return (

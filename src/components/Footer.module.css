@@ -1,17 +1,17 @@
 .footer {
   background: var(--color-primary);
-  color: #fff;
+  color: #001F3F;
   padding: 2rem 1rem;
   text-align: center;
 }
 .social-icon {
-  color: #fff;
+  color: #001F3F;
 }
 .social-icon:hover {
   color: var(--color-accent);
 }
 .link {
-  color: #fff;
+  color: #001F3F;
 }
 .link-muted {
   color: var(--color-mutedText);

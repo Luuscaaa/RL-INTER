@@ -12,7 +12,7 @@ function Contact({ onSubmit }) {
         <input id="email" type="email" required style={{ display: 'block', marginBottom: 8, width: '100%', padding: '0.5rem' }} />
         <label className={styles.label} htmlFor="mensagem">Mensagem:</label>
         <textarea id="mensagem" required style={{ display: 'block', marginBottom: 8, width: '100%', padding: '0.5rem' }} />
-        <button className={styles.button} type="submit" style={{ background: '#FFD700', color: '#fff', border: 'none', borderRadius: '6px', padding: '0.5rem 1.5rem' }}>Enviar</button>
+        <button className={styles.button} type="submit" style={{ background: '#FFD700', color: '#001F3F', border: 'none', borderRadius: '6px', padding: '0.5rem 1.5rem' }}>Enviar</button>
       </form>
       <div className={styles.map} style={{ width: '100%', height: 300 }}>
         <iframe

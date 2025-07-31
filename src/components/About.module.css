@@ -1,6 +1,6 @@
 .about {
   background: var(--color-primary);
-  color: #fff;
+  color: #001F3F;
   padding: 2rem 1rem;
 }
 .team-photo {
@@ -8,7 +8,7 @@
   border-radius: 50%;
 }
 .social-link {
-  color: #fff;
+  color: #001F3F;
 }
 .social-link:hover {
   color: var(--color-accent);

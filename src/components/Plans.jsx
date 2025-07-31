@@ -21,7 +21,7 @@ function Plans({ plans }) {
                 <td>{plan.name}</td>
                 <td>{plan.price}</td>
                 <td>{plan.features.join(', ')}</td>
-                <td><button style={{ background: '#001F3F', color: '#fff', border: 'none', borderRadius: '6px', padding: '0.5rem 1.5rem' }}>Contratar</button></td>
+                <td><button style={{ background: '#FFD700', color: '#001F3F', border: 'none', borderRadius: '6px', padding: '0.5rem 1.5rem' }}>Contratar</button></td>
               </tr>
             ))
           ) : (

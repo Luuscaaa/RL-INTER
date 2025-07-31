@@ -7,7 +7,7 @@ function Footer({ links }) {
       <div style={{ marginBottom: '1rem' }}>
         {links && links.length > 0 ? (
           links.map((link, idx) => (
-            <a key={idx} href={link.url} target="_blank" rel="noopener noreferrer" style={{ color: '#fff', marginRight: 16 }}>
+            <a key={idx} href={link.url} target="_blank" rel="noopener noreferrer" style={{ color: '#001F3F', marginRight: 16 }}>
               <img src="https://img.icons8.com/ios-filled/24/FFD700/link.png" alt={link.name} style={{ verticalAlign: 'middle', marginRight: 4 }} />
               {link.name}
             </a>
@@ -16,7 +16,7 @@ function Footer({ links }) {
           <span>Nenhum link cadastrado.</span>
         )}
       </div>
-      <div style={{ color: '#fff', fontSize: 14 }}>© {new Date().getFullYear()} RL Inter</div>
+      <div style={{ color: '#001F3F', fontSize: 14 }}>© {new Date().getFullYear()} RL Inter</div>
     </footer>
   );
 }

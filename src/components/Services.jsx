@@ -8,7 +8,7 @@ function Services({ services }) {
       <div style={{ display: 'flex', gap: '2rem', flexWrap: 'wrap' }}>
         {services && services.length > 0 ? (
           services.map((service, idx) => (
-            <div key={idx} className={styles.card} style={{ minWidth: '220px', background: '#fff', border: '2px solid #FFD700', borderRadius: '8px', boxShadow: '0 2px 8px rgba(0,0,0,0.05)', padding: '1rem' }}>
+            <div key={idx} className={styles.card} style={{ minWidth: '220px', background: '#F5F7FA', border: '2px solid #FFD700', borderRadius: '8px', boxShadow: '0 2px 8px rgba(0,0,0,0.05)', padding: '1rem' }}>
               <img src="https://img.icons8.com/ios-filled/50/001F3F/trophy.png" alt="Ícone" style={{ width: 40, marginBottom: 8 }} />
               <h3 style={{ color: '#001F3F' }}>{service.name}</h3>
               <p style={{ color: '#4A4A4A' }}>{service.desc}</p>

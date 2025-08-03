@@ -1,3 +1,35 @@
+.aboutList {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.aboutMember {
+  text-align: center;
+}
+.aboutPhoto {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 2px solid #FFD700;
+  margin-bottom: 8px;
+}
+.aboutName {
+  color: #001F3F;
+  font-weight: bold;
+}
+.aboutRole {
+  color: #FFD700;
+}
+.aboutLinks {
+  margin-top: 8px;
+}
+.aboutLink {
+  color: #001F3F;
+  margin-right: 8px;
+}
+.aboutLink:last-child {
+  margin-right: 0;
+}
 .about {
   background: var(--color-primary);
   color: #001F3F;

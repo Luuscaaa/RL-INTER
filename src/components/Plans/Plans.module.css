@@ -1,3 +1,24 @@
+.plansTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+}
+.plansHighlight {
+  border: 2px solid #FFD700;
+}
+.plansButton {
+  background: #FFD700;
+  color: #001F3F;
+  border: none;
+  border-radius: 6px;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+.plansButton:hover {
+  background: #e6c200;
+}
 .plans {
   padding: 2rem 1rem;
 }

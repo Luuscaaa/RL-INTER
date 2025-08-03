@@ -5,7 +5,7 @@ function Plans({ plans }) {
   return (
     <section className={styles.plans}>
       <h2>Planos</h2>
-      <table className={styles.table} style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '2rem' }}>
+      <table className={styles.plansTable}>
         <thead>
           <tr>
             <th>Plano</th>
@@ -17,11 +17,11 @@ function Plans({ plans }) {
         <tbody>
           {plans && plans.length > 0 ? (
             plans.map((plan, idx) => (
-              <tr key={idx} className={idx === 1 ? styles.highlight : ''} style={idx === 1 ? { border: '2px solid #FFD700' } : {}}>
+              <tr key={idx} className={idx === 1 ? styles.plansHighlight : ''}>
                 <td>{plan.name}</td>
                 <td>{plan.price}</td>
                 <td>{plan.features.join(', ')}</td>
-                <td><button style={{ background: '#FFD700', color: '#001F3F', border: 'none', borderRadius: '6px', padding: '0.5rem 1.5rem' }}>Contratar</button></td>
+                <td><button className={styles.plansButton}>Contratar</button></td>
               </tr>
             ))
           ) : (

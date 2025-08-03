@@ -10,11 +10,16 @@
   width: 100vw;
   box-sizing: border-box;
   margin: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  /* Para evitar sobreposição de conteúdo, adicione padding-top no body ou main do app */
 }
 
 .logoSquare {
-  width: 48px;
-  height: 48px;
+  width: 36px;
+  height: 36px;
   background: #fff;
   border-radius: 8px;
   display: flex;
@@ -23,6 +28,7 @@
   font-weight: bold;
   color: #1E3A8A;
   margin-right: 2rem;
+  margin-top: 0.5rem;
 }
 
 .menuCenter {

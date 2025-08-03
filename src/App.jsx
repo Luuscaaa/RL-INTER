@@ -14,7 +14,7 @@ function App() {
     <div className="site-container">
       <Header title="RL Inter" />
       <Hero
-        title="Bem-vindo à RL Inter"
+        title="Seu treino alinhado com o seu objetivo!"
         subtitle="Consultoria esportiva para atletas e empresas. Descubra nossos planos e serviços!"
       />
       <Services

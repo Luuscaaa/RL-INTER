@@ -11,10 +11,10 @@ import WhatsAppButton from './components/WhatsAppButton/WhatsAppButton';
 
 function App() {
   return (
-    <div className="site-container">
+    <div className="site-container" style={{ paddingTop: '72px' }}>
       <Header title="RL Inter" />
       <Hero
-        title="Seu treino alinhado com o seu objetivo!"
+        title="Assessoria Esportiva Integrada: Treino, Nutrição e Fisioterapia em um Só Lugar"
         subtitle="Consultoria esportiva para atletas e empresas. Descubra nossos planos e serviços!"
       />
       <Services

@@ -1,8 +1,11 @@
+.heroText p {
+  font-size: 1.3rem;
+}
 .hero {
   display: flex;
   align-items: stretch;
   justify-content: space-between;
-  padding: 2rem 2rem;
+  padding: 1rem 2rem;
   flex-wrap: wrap;
 }
 

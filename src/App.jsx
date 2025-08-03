@@ -22,6 +22,7 @@ function App() {
           { name: 'Assessoria de Corrida', desc: 'Treinos personalizados para todos os níveis.' },
           { name: 'Consultoria Corporativa', desc: 'Programas de saúde para empresas.' },
           { name: 'Triathlon', desc: 'Preparação completa para provas e desafios.' },
+          { name: 'Musculação', desc: 'treinos alinhados com o seu objetivo'}
         ]}
       />
       <About

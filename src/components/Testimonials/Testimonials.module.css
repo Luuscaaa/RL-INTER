@@ -1,3 +1,29 @@
+.testimonialsList {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.testimonialCard {
+  background: #F5F7FA;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  border-radius: 8px;
+  padding: 1rem;
+  min-width: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.testimonialStars {
+  color: #FFD700;
+  font-size: 20px;
+}
+.testimonialName {
+  color: #001F3F;
+  font-weight: bold;
+}
+.testimonialText {
+  color: #4A4A4A;
+}
 .testimonials {
   background: #F5F7FA;
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);

@@ -1,3 +1,40 @@
+.formMargin {
+  margin-bottom: 2rem;
+}
+.inputField {
+  display: block;
+  margin-bottom: 8px;
+  width: 100%;
+  padding: 0.5rem;
+}
+.textareaField {
+  display: block;
+  margin-bottom: 8px;
+  width: 100%;
+  padding: 0.5rem;
+}
+.contactButton {
+  background: #FFD700;
+  color: #001F3F;
+  border: none;
+  border-radius: 6px;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+.contactButton:hover {
+  background: #e6c200;
+}
+.mapContainer {
+  width: 100%;
+  height: 300px;
+}
+.mapIframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
 .contact {
   padding: 2rem 1rem;
 }
